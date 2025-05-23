@@ -23,9 +23,7 @@ Deno.test("あいうえお", () => {
   t.assertEquals(utf8, org);
 });
 
-/*
 Deno.test("illegal", () => {
-  const s = SJIS.decode(new Uint8Array([ 228, 186, 156 ]));
-  console.log(s);
+  t.assertEquals(SJIS.decode(new Uint8Array([227, 129, 130])), "縺");
+  t.assertEquals(SJIS.decode(new Uint8Array([228, 186, 156])), "莠");
 });
-*/
