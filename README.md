@@ -25,3 +25,8 @@ deno SJIS.example.js
 ```sh
 deno test --allow-read SJIS.test.js
 ```
+
+## reference
+
+- [JIS](https://github.com/code4fukui/JIS/)
+- [EUC](https://github.com/code4fukui/EUC/)
