@@ -1,8 +1,8 @@
 # SJIS
 
-## Usage
+A [SJIS](https://ja.wikipedia.org/wiki/Shift_JIS) encoder and decoder in JavaScript (ES modules)
 
-```javascript
+```js
 import { SJIS } from "https://code4fukui.github.io/SJIS/SJIS.js";
 
 const sjis = SJIS.encode("あいうえお");
@@ -11,8 +11,17 @@ const s = SJIS.decode(sjis);
 console.log(s);
 ```
 
-## Test
+## privilege
+
+- none
+
+for [Deno](https://deno.com/)
+```sh
+deno SJIS.example.js
+```
+
+## test
 
 ```sh
-deno test SJIS.test.js
+deno test --allow-read SJIS.test.js
 ```
