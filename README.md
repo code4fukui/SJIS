@@ -1,7 +1,8 @@
 # SJIS
 
-A [SJIS](https://ja.wikipedia.org/wiki/Shift_JIS) encoder and decoder in JavaScript (ES modules)
+A [SJIS](https://en.wikipedia.org/wiki/Shift_JIS) encoder and decoder in JavaScript (ES modules)
 
+## Demo
 ```js
 import { SJIS } from "https://code4fukui.github.io/SJIS/SJIS.js";
 
@@ -11,22 +12,26 @@ const s = SJIS.decode(sjis);
 console.log(s);
 ```
 
-## privilege
+## Features
+- SJIS encoding and decoding
 
-- none
+## Requirements
+- [Deno](https://deno.com/)
 
-for [Deno](https://deno.com/)
+## Usage
+For Deno:
 ```sh
 deno SJIS.example.js
 ```
 
-## test
-
+## Test
 ```sh
 deno test --allow-read SJIS.test.js
 ```
 
-## reference
-
+## References
 - [JIS](https://github.com/code4fukui/JIS/)
 - [EUC](https://github.com/code4fukui/EUC/)
+
+## License
+MIT
