@@ -23,3 +23,7 @@ deno test --allow-read SJIS.test.js
 
 - [JIS](https://github.com/code4fukui/JIS/)
 - [EUC](https://github.com/code4fukui/EUC/)
+
+## ライセンス
+
+MIT

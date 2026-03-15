@@ -1,16 +1,8 @@
 # SJIS
 
-A [SJIS](https://en.wikipedia.org/wiki/Shift_JIS) encoder and decoder in JavaScript (ES modules)
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-## Demo
-```js
-import { SJIS } from "https://code4fukui.github.io/SJIS/SJIS.js";
-
-const sjis = SJIS.encode("あいうえお");
-console.log(sjis);
-const s = SJIS.decode(sjis);
-console.log(s);
-```
+A [SJIS](https://en.wikipedia.org/wiki/Shift_JIS) encoder and decoder in JavaScript (ES modules).
 
 ## Features
 - SJIS encoding and decoding
