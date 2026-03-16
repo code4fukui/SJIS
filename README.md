@@ -26,4 +26,4 @@ deno test --allow-read SJIS.test.js
 - [EUC](https://github.com/code4fukui/EUC/)
 
 ## License
-MIT
+MIT License — see [LICENSE](LICENSE).
